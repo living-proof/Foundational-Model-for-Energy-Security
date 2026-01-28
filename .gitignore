@@ -1,4 +1,19 @@
-
+# Ignore compiled packet capture files
 *.pcap
 *.pcapng
+
+# Ignore environment and IDE specific files
 .claude/
+.vscode/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore zip files
+*.zip
+
+# Ignore all files in the raw directory
+raw/*
+!raw/.gitkeep
