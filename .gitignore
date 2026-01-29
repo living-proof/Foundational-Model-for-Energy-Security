@@ -15,5 +15,5 @@ __pycache__/
 *.zip
 
 # Ignore all files in the raw directory
-raw/*
-!raw/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
